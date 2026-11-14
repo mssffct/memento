@@ -167,6 +167,6 @@ function onSave() {
       <div v-else><strong>Годы жизни:</strong> {{ birthDisplay }} — {{ deathDisplay }}</div>
     </div>
 
-    <button @click="onSave" style="padding: 0.5rem 1rem; font-size: 1rem;">Сохранить</button>
+    <v-btn variant="tonal" @click="onSave" style="padding: 0.5rem 1rem; font-size: 1rem;">Сохранить</v-btn>
   </section>
 </template>
